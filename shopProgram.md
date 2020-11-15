@@ -18,8 +18,8 @@
 
     ```json
     "less.compile": {
-            "outExt": ".wxss"
-        }
+       "outExt":".wxss"
+    }
     ```
 
   - 定义变量
