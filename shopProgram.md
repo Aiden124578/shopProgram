@@ -18,7 +18,7 @@
 
     ```json
     "less.compile": {
-       "outExt":".wxss"
+     	"outExt":".wxss"
     }
     ```
 
