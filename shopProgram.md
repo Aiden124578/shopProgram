@@ -42,8 +42,8 @@
 - 页面.js文件中 存放事件回调函数的时候，存放在data同层级下
 - 组件.js文件中存放事件回调函数的时候，必须要存放在methods中
 - iPhone的部分手机不识别webp图片格式
-- ![image-20200721160118017.png](https://i.loli.net/2020/11/15/94NfTzqYhIcsX53.png)
-- ![image-20200721160118017.png](https://i.loli.net/2020/11/15/94NfTzqYhIcsX53.png)
+ ![image-20200721160118017.png](https://i.loli.net/2020/11/15/94NfTzqYhIcsX53.png)
+ ![image-20200721160118017.png](https://i.loli.net/2020/11/15/94NfTzqYhIcsX53.png)
 
 
 
