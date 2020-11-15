@@ -223,7 +223,7 @@ Page({
 
 swiper为图片的高度，image宽度100%加mode=“widthFix”自适应
 
-![image-20200721110155312](images/image-20200721110155312.png)
+![image-20200721110155312.png](https://i.loli.net/2020/11/15/R5dOTuNAFKE8wor.png)
 
 
 
@@ -379,7 +379,7 @@ view 相当于div，默认块级元素
 
 - wx:for="{{数组}}"，wx:for-item="循环项 的名称" wx:for-index="循环项的索引"，只有一层循环时，wx:for-item和wx:for-index属性可省略 ，默认的就为item和index， 需额外加入wx:key属性
 - wx:key="唯一的值",用来提高列表性能，**wx:key="*this"**,就表示你的数组是一个普通的数组，*this表示的是循环项，没有属性时用*tihis，即不是对象时
-- ![image-20200721154453477](images/image-20200721154453477.png)
+![image-20200721154453477.png](https://i.loli.net/2020/11/15/uKwLGqBX6HyIdzN.png)
 - 调用{{index}},{{item.name}},name为key
 - item默认为该数组， index默认为索引，子元素{{item.key}}，{{index}}索引
 - wx:for="{{对象}}"，wx:for-item="对象的值" wx:for-index="对象的属性"，修改为wx:for-item="value" wx:for-index="key"
@@ -632,7 +632,7 @@ Page({
 - 1px=2rpx
 - calc（750rpx * 100 / 375），750和rpx之间不能有空格
 
-![image-20200711145032991](.\images\image-20200711145032991.png)
+![image-20200711145032991.png](https://i.loli.net/2020/11/15/2mfqj9ebnGrMK8F.png)
 
 
 
@@ -667,7 +667,7 @@ Page({
 
 - （swiper的宽度=100%或者100vw或者750rpx）
 
-  ![image-20200711154919747](.\images\image-20200711154919747.png)
+![image-20200711154919747.png](https://i.loli.net/2020/11/15/OWXI6QpjmNKzhRo.png)
 
 swiper属性
 
@@ -730,7 +730,7 @@ properties: {
 
 在把子组件tabs.wxml中的代码拿过去
 
-![image-20200711175239041](.\images\image-20200711175239041.png)
+![image-20200711175239041.png](https://i.loli.net/2020/11/15/J7euACb8zGwyUr9.png)
 
 
 
@@ -744,11 +744,11 @@ vw==100%;
 
 ## 文本行数
 
-![image-20200714101752819](.\images\image-20200714101752819.png)
+![image-20200714101752819.png](https://i.loli.net/2020/11/15/4UymVYsP9juCqJb.png)
 
-![](.\images\image-20200714144048129.png)
+![image-20200714144048129.png](https://i.loli.net/2020/11/15/fMj4g2hbJ1a5WdT.png)
 
-![image-20200714144122786](.\images\image-20200714144122786.png)
+![image-20200714144122786.png](https://i.loli.net/2020/11/15/b5R8OPXVC2vwiFq.png)
 
 **限制在一个块元素显示的文本的行数。**
 
@@ -794,7 +794,7 @@ vertical-align：text-bottom;在下方
 
 用于收藏
 
-![image-20200725143952924](images/image-20200725143952924.png)
+![image-20200725143952924.png](https://i.loli.net/2020/11/15/IF3inR2JWs9MxoY.png)
 
 同步获取
 
@@ -818,11 +818,11 @@ onHide用于当前页面跳转，页面不关闭(wx.redirectTo)
 
 js层
 
-![image-20200729213704341](images/image-20200729213704341.png)
+![image-20200729213704341.png](https://i.loli.net/2020/11/15/tRDlpx31mJsXfen.png)
 
 wxml
 
-![image-20200729213738795](images/image-20200729213738795.png)
+![image-20200729213738795.png](https://i.loli.net/2020/11/15/hC8ijSqauO7yzV5.png)
 
 
 
@@ -830,19 +830,19 @@ wxml
 
 对象赋值用null，数组用[]
 
-![image-20200729215026602](images/image-20200729215026602.png)
+![image-20200729215026602.png](https://i.loli.net/2020/11/15/ufHFKGn83ySiWNd.png)
 
 接收id
 
-![image-20200729215348712](images/image-20200729215348712.png)
+![image-20200729215026602.png](https://i.loli.net/2020/11/15/ufHFKGn83ySiWNd.png)
 
 拿数据
 
-![image-20200729215438461](images/image-20200729215438461.png)
+![image-20200729215438461.png](https://i.loli.net/2020/11/15/CbNrJziBvdRtelk.png)
 
 对象中的循环
 
-![image-20200729221107519](images/image-20200729221107519.png)
+![image-20200729221107519.png](https://i.loli.net/2020/11/15/XaHF7ofpBN9GVex.png)
 
 
 
@@ -914,13 +914,13 @@ radio .wx-radio-input.wx-radio-input-checked::before {
 
 html
 
-![image-20200801093324001](images/image-20200801093324001.png)
+![image-20200801093324001.png](https://i.loli.net/2020/11/15/kawhT3yH2LpEMOl.png)
 
-![image-20200801093305247](images/image-20200801093305247.png)
+![image-20200801093305247.png](https://i.loli.net/2020/11/15/kPYAmSNGwJ4nUr2.png)
 
 js
 
-![image-20200801093349165](images/image-20200801093349165.png)
+![image-20200801093349165.png](https://i.loli.net/2020/11/15/POgcDajRrWNL3GF.png)
 
 
 
