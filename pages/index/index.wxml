@@ -1,0 +1,77 @@
+<view class="pyg_index">
+  <SearchInput></SearchInput>
+  <!-- <view class="index_swiper">
+    <swiper indicator-active-color="ff0094" indicator-color="#0094ff" indicator-dots autoplay="{{true}}" interval="3000" circular="{{true}}">
+    <swiper-item class="" item-id="">
+      <navigator>
+        <image mode="widthFix" class="" src="https://aecpm.alicdn.com/simba/img/TB1IfT5LFXXXXblXpXXSutbFXXX.jpg" />
+      </navigator>
+    </swiper-item>
+    <swiper-item class="" item-id="">
+      <navigator >
+        <image mode="widthFix" class="" src="https://aecpm.alicdn.com/simba/img/TB1lUZLJVXXXXXtXFXXSutbFXXX.jpg"/>
+      </navigator>
+    </swiper-item>
+    <swiper-item class="" item-id="">
+      <navigator>
+        <image mode="widthFix" class="" src="https://img.alicdn.com/tfs/TB1bb0_msKfxu4jSZPfXXb3dXXa-520-280.png"/>
+      </navigator>
+    </swiper-item>
+</swiper> -->
+  <!-- </view> -->
+
+  <!-- 轮播图 -->
+  <view class="index_swiper">
+    <swiper autoplay="{{true}}" indicator-dots="{{true}}" circular="{{true}}">
+      <swiper-item
+      wx:for="{{swiperList}}"
+      wx:key="goods_id"
+      wx:for-item="item"
+      > 
+        <navigator>
+          <image mode="widthFix" src="{{item.image_src}}"></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+
+<!-- 商品链接 -->
+<view class="shop_info">
+  <view class="shop_wrap">
+    <navigator url="" class="shop_count" wx:for="{{shopList}}" wx:key="name" wx:for-item="item">
+      <image mode="widthFix" src="{{item.image_src}}"></image>
+      <!-- <view>
+        {{item.name}}  
+      </view> -->
+    </navigator>
+  </view>
+</view>
+  <!-- 商品链接end -->
+<!-- 楼层开始 -->
+<view class="index_florr">
+  <view class="floor_group"
+  wx:for="{{floorList}}"
+  wx:for-item="item1"
+  wx:for-index="index1"
+  wx:key="Wfloor_title"
+  >
+    <!-- 标题 -->
+    <view class="floor_title">
+      <image mode="widthFix" src="{{item1.floor_title.image_src}}"/>
+    </view>
+    <!-- 内容 -->
+    <view class="floor_content">
+      <navigator
+      wx:for="{{item1.product_list}}"
+      wx:for-item="item2"
+      wx:for-index="index2"
+      wx:key="name"
+      >
+        <image mode="{{index2===0?'widthFix':'scaleToFill'}}" src="{{item2.image_src}}"/>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+</view>
+
