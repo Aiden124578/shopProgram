@@ -924,15 +924,15 @@ js
 
 
 
-![image-20200801093402660](images/image-20200801093402660.png)
+![image-20200801093402660.png](https://i.loli.net/2020/11/17/7XYEIeF8ASLMcVn.png)
 
 
 
 ## 本地存储
 
-![image-20200801095612988](images/image-20200801095612988.png)
+![image-20200801095612988.png](https://i.loli.net/2020/11/17/cWPwsu6bq4nLT3C.png)
 
-![image-20200801095745302](images/image-20200801095745302.png)
+![image-20200801095745302.png](https://i.loli.net/2020/11/17/NuDAPvremUi3pog.png)
 
 
 
@@ -946,23 +946,23 @@ scroll-top="{{**scrollTop**}}"
 
 js中的data数据
 
-![image-20200801101722198](images/image-20200801101722198.png)
+![image-20200801101722198.png](https://i.loli.net/2020/11/17/Ar5Nx8buSQvst1q.png)
 
-![image-20200801101740424](images/image-20200801101740424.png)
+![image-20200801101740424.png](https://i.loli.net/2020/11/17/CHfv6XP9UG3SO8d.png)
 
 - 定位
 
-![image-20200827102839537](images/image-20200827102839537.png)
+![image-20200827102839537.png](https://i.loli.net/2020/11/17/ijKBmlE42cXsF9p.png)
 
-![image-20200827102854092](images/image-20200827102854092.png)
+![image-20200827102854092.png](https://i.loli.net/2020/11/17/wyWM82xNBJFetkS.png)
 
-![image-20200827102903944](images/image-20200827102903944.png)
+![image-20200827102903944.png](https://i.loli.net/2020/11/17/y1jVlTgzOXUfpQv.png)
 
-![image-20200827102919385](images/image-20200827102919385.png)
+![image-20200827102919385.png](https://i.loli.net/2020/11/17/VdnE7BRW1pbI9Am.png)
 
 - 给定位的地方加id
 
-![image-20200827102940422](images/image-20200827102940422.png)
+![image-20200827102940422.png](https://i.loli.net/2020/11/17/Ul9fN8FOSbvgRET.png)
 
 
 
@@ -970,43 +970,43 @@ js中的data数据
 
 效果
 
-![image-20200801112616864](images/image-20200801112616864.png)
+![image-20200801112616864.png](https://i.loli.net/2020/11/17/2nt4v9jLBTMidEz.png)
 
 步骤：
 
 - 创建自定义组件Tabs
 
-![](images/image-20200801112654163.png)
+![image-20200801112654163.png](https://i.loli.net/2020/11/17/b4taTXILfQd5sDS.png)
 
 - 需要的页面引入自定义组件
 
-![image-20200801112820330](images/image-20200801112820330.png)
+![image-20200801112820330.png](https://i.loli.net/2020/11/17/KtQs8d645YNxThj.png)
 
 - 在html里面调用自定义组件，并给一个值传递给子组件
 
-![image-20200801112856231](images/image-20200801112856231.png)
+![image-20200801112856231.png](https://i.loli.net/2020/11/17/wJAai7OEoctIFx9.png)
 
 - 在页面的js中写好数据
 
-![image-20200801112933794](images/image-20200801112933794.png)
+![image-20200801112933794.png](https://i.loli.net/2020/11/17/C5uxQ7LRzU8WOsl.png)
 
 - 子组件Tabs.js中写好对应传来的数据
 
-![image-20200801113013172](images/image-20200801113013172.png)
+![image-20200801113013172.png](https://i.loli.net/2020/11/17/3Shp4gLFYD6tQes.png)
 
 - 在子组件Tabs.wxml中渲染数据
 
-![image-20200801113101690](images/image-20200801113101690.png)
+![image-20200801113101690.png](https://i.loli.net/2020/11/17/qKrGW5c8YE3vsDn.png)
 
 - 对页面进行添加样式
 
-![image-20200801113131191](images/image-20200801113131191.png)
+![image-20200801113131191.png](https://i.loli.net/2020/11/17/yfhswjiaNgI3TE4.png)
 
 - 实现点击时下标active选择
 
   wxml中
 
-![image-20200801113204959](images/image-20200801113204959.png)
+![image-20200801113204959.png](https://i.loli.net/2020/11/17/nKY9yp1oAbNqZfR.png)
 
 ​		js中
 
@@ -1014,7 +1014,7 @@ js中的data数据
 
 - 将传过去触发的事件回给父页面
 
-![image-20200801113307227](images/image-20200801113307227.png)
+![image-20200801113307227.png](https://i.loli.net/2020/11/17/Q3jaxo4zAtY81lN.png)
 
 - 给父页面的js实现点击效果
 
