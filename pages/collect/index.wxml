@@ -1,0 +1,25 @@
+<view class="container">
+
+    <i-avatar src="https://i.loli.net/2017/08/21/599a521472424.jpg" size="large" i-class="face"></i-avatar>
+    <view>{{nickname}}</view>
+    <view>
+        <i-cell-group>
+            <i-cell title="收货地址" label="Shipping address" is-link url="../goods_list/index">
+                <i-icon slot="icon" type="activity" size="28" color="#80848f" />
+            </i-cell>
+            <i-cell title="咖啡钱包" value="0 杯" label="Coffee Wallet" is-link>
+                <i-icon slot="icon" type="activity" size="28" color="#80848f" />
+            </i-cell>
+            <i-cell title="优惠卷" value="6 张" label="Coffee Wallet" is-link>
+                <i-icon slot="icon" type="activity" size="28" color="#80848f" />
+            </i-cell>
+            <i-cell title="发票管理" label="Coffee Wallet" is-link>
+                <i-icon slot="icon" type="activity" size="28" color="#80848f" />
+            </i-cell>
+            <i-cell title="客户服务" label="Coffee Wallet" is-link>
+                <i-icon slot="icon" type="activity" size="28" color="#80848f" />
+            </i-cell>
+        </i-cell-group>
+    </view>
+    
+</view>
