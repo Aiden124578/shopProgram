@@ -1546,7 +1546,7 @@ https://vant-contrib.gitee.io/vant-weapp/#/intro
 
 ## 获取用户的收货地址
 
-![image-20200828100256358](images/image-20200828100256358.png)
+![image-20200828100256358.png](https://i.loli.net/2020/11/19/rItDXJ5GwEgBVWH.png)
 
 
 
