@@ -1010,7 +1010,7 @@ js中的data数据
 
 ​		js中
 
-![image-20200801113230229](images/image-20200801113230229.png)
+![image-20200801113230229.png](https://i.loli.net/2020/11/19/PkpdXU9szW8nDOj.png)
 
 - 将传过去触发的事件回给父页面
 
@@ -1018,15 +1018,15 @@ js中的data数据
 
 - 给父页面的js实现点击效果
 
-![image-20200801113356120](images/image-20200801113356120.png)
+![image-20200801113356120.png](https://i.loli.net/2020/11/19/w2D6VByMYsIG351.png)
 
 - 给Tabs.wxml中内容加入榻槽，用于给父页面传递内容
 
-![image-20200801113448300](images/image-20200801113448300.png)
+![image-20200801113448300.png](https://i.loli.net/2020/11/19/qbgmMiuYv9HXCKz.png)
 
 - 父页面接受传递过来的内容
 
-![image-20200801113527286](images/image-20200801113527286.png)
+![image-20200801113527286.png](https://i.loli.net/2020/11/19/cXJlmFNVQ2fiGxy.png)
 
 
 
@@ -1034,11 +1034,11 @@ js中的data数据
 
 相当于tabs=this.data.tabs
 
-![image-20200804111206567](images/image-20200804111206567.png)
+![image-20200804111206567.png](https://i.loli.net/2020/11/19/gQYxl4snM3FaqXB.png)
 
 相当于tabs:tabs
 
-![image-20200804111247640](images/image-20200804111247640.png)
+![image-20200804111247640.png](https://i.loli.net/2020/11/19/ePQ8d3S1Hvl7m4a.png)
 
 
 
@@ -1046,7 +1046,7 @@ js中的data数据
 
 - 跳转页面传参数
 
-![image-20200804144134350](images/image-20200804144134350.png)
+![image-20200804144134350.png](https://i.loli.net/2020/11/19/lSKdp3hHskmJgP7.png)
 
 - 要跳的页面js
 
@@ -1054,17 +1054,17 @@ js中的data数据
 
 onload里面获取
 
-![image-20200804144249116](images/image-20200804144249116.png)
+![image-20200804144249116.png](https://i.loli.net/2020/11/19/m5HKdGCyRlEOnAF.png)
 
 用id发送请求，url地址，和data中要传递的参数
 
-![image-20200804144436922](images/image-20200804144436922.png)
+![image-20200804144436922.png](https://i.loli.net/2020/11/19/hWas2NYDXU7F9qd.png)
 
 获取数据
 
-![image-20200804144518493](images/image-20200804144518493.png)
+![image-20200804144518493.png](https://i.loli.net/2020/11/19/3b1qEpHKDOTiMYf.png)
 
-![image-20200804144530376](images/image-20200804144530376.png)
+![image-20200804144530376.png](https://i.loli.net/2020/11/19/3v975f8WQoJDZEm.png)
 
 
 
@@ -1104,7 +1104,7 @@ wx.showToast({
 
  onReachBottom()
 
-![image-20200804160551097](images/image-20200804160551097.png)
+![image-20200804160551097.png](https://i.loli.net/2020/11/19/OYdyegU5ls6n8Af.png)
 
 
 
@@ -1112,7 +1112,7 @@ wx.showToast({
 
 onPullDownRefresh()
 
-![image-20200804160621400](images/image-20200804160621400.png)
+![image-20200804160621400.png](https://i.loli.net/2020/11/19/ZpRoQB2eC986OfK.png)
 
 
 
@@ -1132,21 +1132,21 @@ wx.getSetting
 
 wx.chooseAddress获取收货地址
 
-![image-20200804170558506](images/image-20200804170558506.png)
+![image-20200804170558506.png](https://i.loli.net/2020/11/19/XuNxqI7LeyRGBQl.png)
 
-![image-20200804171959334](images/image-20200804171959334.png)
+![image-20200804171959334.png](https://i.loli.net/2020/11/19/xHnpXvkU7gEAI5C.png)
 
-![image-20200804172501920](images/image-20200804172501920.png)
+![image-20200804172501920.png](https://i.loli.net/2020/11/19/mSUrGeLiy7bHxav.png)
 
 用户以前拒绝过授予权限，诱导用户打开 wx.openSetting
 
-![image-20200804173255818](images/image-20200804173255818.png)
+![image-20200804173255818.png](https://i.loli.net/2020/11/19/1Cr9iRPgjsd3S5W.png)
 
 es7
 
-![image-20200804175416347](images/image-20200804175416347.png)
+![image-20200804175416347.png](https://i.loli.net/2020/11/19/iZpjvReK4alFtTP.png)
 
-![image-20200804175400749](images/image-20200804175400749.png)
+![image-20200804175400749.png](https://i.loli.net/2020/11/19/O9GqMsrJc8D6ozC.png)
 
 
 
@@ -1540,7 +1540,7 @@ https://vant-contrib.gitee.io/vant-weapp/#/intro
 
 ## 更改图片格式
 
-![image-20200828091056993](images/image-20200828091056993.png)
+![image-20200828091056993.png](https://i.loli.net/2020/11/19/126U3VDyfnXobFT.png)
 
 
 
